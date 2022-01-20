@@ -5,14 +5,18 @@
 }
 
 .active {
+  font-family: sans-serif;
   font-weight: bold;
+  font-size: 15px;
   fill: #000;
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
 .inactive {
+  font-family: sans-serif;
   font-weight: lighter;
+  font-size: 15px;
   fill: #c9c9c9;
   transition: fill 0.3s ease-out;
   text-anchor: middle;
@@ -50,6 +54,28 @@
   text-transform: capitalize;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 4px;
+}
+
+.tooltip {
+  position: absolute;
+  width: 135px;
+  height: 60px;
+  padding: 2px;
+  padding-top: 8px;
+  font: 12px sans-serif;
+  color: white;
+  text-align: center;
+  background: #050505;
+  border: 0;
+  border-radius: 10px;
+}
+
+.axisText {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  fill: #0a0a0a;
+  text-anchor: middle;
 }
 
 /* Mobile Rules */
